@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#topbar {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  font-size: 18px;
+}
+
+#topbar span {
+  cursor: pointer;
+}
+
+#topbar .brand {
+  margin-left: auto;
+  font-weight: bold;
+  color: #4af;
+}
+
+#clock {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 32px; 
+}
